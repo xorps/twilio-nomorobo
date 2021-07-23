@@ -1,6 +1,6 @@
 import '@twilio-labs/serverless-runtime-types';
-import type { Context, ServerlessFunctionSignature } from '@twilio-labs/serverless-runtime-types/types';
-import VoiceResponse from 'twilio/lib/twiml/VoiceResponse';
+import VoiceResponse from 'twilio/lib/twiml/VoiceResponse'
+import { Context, ServerlessFunctionSignature } from '@twilio-labs/serverless-runtime-types/types';
 
 type Env = {SIM: string};
 type Event = {From: string};
